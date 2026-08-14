@@ -5,7 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [bananas, setBananas] = useState(0)
 
   return (
     <>
@@ -24,9 +24,9 @@ function App() {
         <button
           type="button"
           className="counter"
-          onClick={() => setCount((count) => count + 1)}
+          onClick={() => setBananas((bananas) => bananas + 1)}
         >
-          Count is {count}
+          Bananas: {bananas}
         </button>
       </section>
 
